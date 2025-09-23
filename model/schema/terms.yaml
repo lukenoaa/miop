@@ -54,10 +54,10 @@ slots:
     multivalued: false
     examples:
     - value: Moorea BioCode, https://www.moorea.berkeley.edu/programs/research/moorea-biocode
-    - value: Improving and integrating European ocean observing and forecasting systems for sustainable use of the oceans, EuroSea, Toste Tanhua, Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, https://eurosea.eu, EU Horizon2020, Grant agreement ID: 862626
+    - value: "Improving and integrating European ocean observing and forecasting systems for sustainable use of the oceans, EuroSea, Toste Tanhua, Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, https://eurosea.eu, EU Horizon2020, Grant agreement ID: 862626"
     comments: 
     aliases:
-    - source project
+    - source project  
     - authoring project
     - published by project
     annotations:
@@ -252,7 +252,7 @@ slots:
     - value: 2007-03-01T13:00:00Z
     slot_uri: dc:issued
   audience:
-   is_a: core field
+    is_a: core field
     title: audience
     description: >
       A class of agents for whom the resource is intended or useful.
@@ -265,7 +265,7 @@ slots:
     - value: scientists|classroom|managers
     slot_uri: dc:audience
   publisher:
-   is_a: core field
+    is_a: core field
     title: publisher
     description: >
       An entity responsible for making the resource available.
@@ -277,13 +277,13 @@ slots:
     - value: Monterey Bay Aquarium Research Institute, Chavez Lab
     slot_uri: dc:publisher
   hasVersion:
-   is_a: core field
+    is_a: core field
     title: hasVersion
     description: >
       A related resource that is a version, edition, or adaptation of the described resource.
     rdfs:comment: >
-    Changes in version imply substantive changes in content rather than differences in format. 
-    This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of.
+      Changes in version imply substantive changes in content rather than differences in format. 
+      This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of.
     range: string
     multivalued: false
     examples:
@@ -291,7 +291,7 @@ slots:
     - value: 0.2
     slot_uri: dc:hasVersion
   license:
-   is_a: core field
+    is_a: core field
     title: license
     description: >
       A legal document giving official permission to do something with the resource.
@@ -302,8 +302,8 @@ slots:
     - value: All rights reserved
     - value: CC BY 4.0
     slot_uri: dc:license
- maturity_level:
-   is_a: core field
+  maturity_level:
+    is_a: core field
     title: maturity level
     description: >
       Enter the maturity level of the methodology in the document. 
